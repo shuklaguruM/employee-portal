@@ -1,0 +1,7 @@
+package com.moneview.employeePortal.mappers;
+
+public interface Mapper<A,B> {
+    B mapTo(A a);
+
+    A mapFrom(B b);
+}
